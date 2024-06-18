@@ -3,7 +3,7 @@ Zookeeper initiation:
 
 Kakfka Server Initiation:
 .\bin\windows\kafka-server-start.bat .\config\server.properties
-
+rhrgh
 
 Topic Creation:
 .\bin\windows\kafka-topics.bat --create --topic my_topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
