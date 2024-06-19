@@ -12,3 +12,7 @@ Topic Creation:
 
 To view in Web page:
 .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic my_topic
+
+
+To view the message as Consumer:
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic my_topic --from-beginning

@@ -20,6 +20,7 @@ public class KafkaProducer {
 
     public void sendMessage(String message){
         kafkaTemplate.send("javakafka",message);
+
     }
 
 }
